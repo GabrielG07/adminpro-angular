@@ -16,10 +16,13 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
 
 // Temporal
 import { IncrementComponent } from '../components/increment/increment.component';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
+
 
 
 @NgModule({
@@ -30,7 +33,9 @@ import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.co
         Graficas1Component,
         IncrementComponent,
         GraficoDonaComponent,
-        AccoutSettingsComponent
+        AccoutSettingsComponent,
+        PromesasComponent,
+        RxjsComponent
     ],
     exports: [
         DashboardComponent,
